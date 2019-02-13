@@ -1,7 +1,7 @@
-def github_id = 'CHANGEME'
+def github_id = 'garethTurner'
 
 def namespace = github_id.toLowerCase()
-def git_repository = "https://github.com/${github_id}/onse-banking-app-smoketest"
+def git_repository = "https://github.com/${github_id.toLowerCase()}/onse-banking-app-smoketest"
 def app_url = "http://${namespace}-app.apps.onse-training.co.uk"
 
 def label = "build-${UUID.randomUUID().toString()}"
